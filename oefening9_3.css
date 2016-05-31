@@ -1,0 +1,110 @@
+body {
+  background-color: #F5FFFA;
+
+}
+h1 {
+  font-family: "moonflower";
+  font-size: 4em;
+  line-height: 1.8em;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+nav {
+    font-family: "Shree Devanagari 714";
+    font-size: 0.8em;
+    line-height: 1.8em;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+a {
+    margin-right: 15px;
+    color: black;
+  }
+
+  h2 {
+    font-family: "moonflower";
+    font-size: 2em;
+    line-height: 1.8em;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+
+.kader {
+    width: 500px;
+    height: 370px;
+    margin: 50px auto;
+    background-image: url("bloemekes.jpg");
+    background-size: 600px 400px;
+    border: 6px solid #708090;
+    margin-top: -40px;
+    margin-left: 650px;
+  }
+
+
+  @media (max-width: 1200px) {
+      body {
+          width: 85%;
+      }
+      .kader{
+        width: 700px;
+        display: block;
+        margin: auto;
+      }
+  }
+
+  @media (max-width: 910px) {
+      body {
+          width: 90%;
+      }
+      .kader{
+        width: 650px;
+        display: block;
+        margin: auto;
+      }
+  }
+
+  @media (max-width: 810px) {
+      body {
+          width: 90%;
+      }
+      .kader{
+        width: 600px;
+        display: block;
+        margin: auto;
+      }
+  }
+
+  @media (max-width: 710px) {
+      body {
+          width: 90%;
+      }
+      .kader{
+        width: 550px;
+        display: block;
+        margin: auto;
+      }
+  }
+
+  @media (max-width: 610px) {
+      body {
+          width: 95%;
+      }
+      .kader{
+        width: 500px;
+        display: block;
+        margin: auto;
+      }
+  }
+
+  @media (max-width: 450px) {
+
+  .kader{
+      width: 450px;
+      display: block;
+      margin: auto;
+    }
+  }

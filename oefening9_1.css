@@ -1,0 +1,64 @@
+body {
+  background-color: #F5FFFA;}
+
+h1 {
+    font-family: "moonflower";
+    font-size: 4em;
+    line-height: 1.8em;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+nav {
+    font-family: "Shree Devanagari 714";
+    font-size: 0.8em;
+    line-height: 1.8em;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+a {
+    margin-right: 15px;
+    color: black;
+  }
+
+h2 {
+    font-family: "Shree Devanagari 714";
+    font-size: 1em;
+    line-height: 1.8em;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    }
+
+
+    @media (max-width: 1200px) {
+        body {
+            width: 85%;
+    }
+
+    @media (max-width: 910px) {
+        body {
+            width: 80%;
+    }
+
+    @media (max-width: 810px) {
+        body {
+            width: 75%;
+    }
+
+    @media (max-width: 710px) {
+        body {
+            width: 70%;
+    }
+
+    @media (max-width: 610px) {
+        body {
+            width: 65%;
+    }
+
+    @media (max-width: 450px) {
+      body {
+          width: 60%;
+    }

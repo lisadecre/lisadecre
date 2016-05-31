@@ -1,0 +1,110 @@
+body {
+  background-color: #F5FFFA;
+
+}
+h1 {
+  font-family: "moonflower";
+  font-size: 4em;
+  line-height: 1.8em;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.kader-voor-foto {
+  width: 500px;
+  height: 370px;
+  margin: 50px auto;
+  background-image: url("hand.jpg");
+  background-size: 600px 400px;
+  border: 6px solid #708090;
+  margin-top: 40px;
+}
+
+.kader-voor-foto p {
+  font-family: "helvetica neue";
+  color: #708090;
+  text-align: center;
+  margin-top: 130px;
+  font-size: 3.6em;
+  line-height: 1.45em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+nav {
+  font-family: "Shree Devanagari 714";
+  font-size: 0.8em;
+  line-height: 1.8em;
+  margin-top: 0px;
+  text-align: center;
+}
+
+a {
+  margin-right: 15px;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+    body {
+        width: 85%;
+    }
+    .kader-voor-foto{
+      width: 700px;
+      display: block;
+      margin: auto;
+    }
+}
+
+@media (max-width: 910px) {
+    body {
+        width: 90%;
+    }
+    .kader-voor-foto{
+      width: 650px;
+      display: block;
+      margin: auto;
+    }
+}
+
+@media (max-width: 810px) {
+    body {
+        width: 90%;
+    }
+    .kader-voor-foto{
+      width: 600px;
+      display: block;
+      margin: auto;
+    }
+}
+
+@media (max-width: 710px) {
+    body {
+        width: 90%;
+    }
+    .kader-voor-foto{
+      width: 550px;
+      display: block;
+      margin: auto;
+    }
+}
+
+@media (max-width: 610px) {
+    body {
+        width: 95%;
+    }
+    .kader-voor-foto{
+      width: 500px;
+      display: block;
+      margin: auto;
+    }
+}
+
+@media (max-width: 450px) {
+
+  .kader-voor-foto{
+    width: 450px;
+    display: block;
+    margin: auto;
+  }
+}
